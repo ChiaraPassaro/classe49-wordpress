@@ -14,6 +14,7 @@
 
 html {
   font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after {
@@ -35,13 +36,32 @@ html {
 body {
   /* width: 1200px; */
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Header */
 #header {
   height: 150px;
   margin-bottom: 30px;
-  background-color: violet;
+}
+.logo {
+  margin-bottom: 1.3em;
+}
+.logo img {
+  height: 4em;
+}
+.header-menu .menu-inline {
+  list-style: none;
+}
+.header-menu .menu-inline li{ 
+  display: inline-block;
+  margin-right: 0.8em;
+  font-size: 0.8em;
+}
+.header-menu .menu-inline a {
+  text-decoration: none;
+  color: grey;
+  text-transform: uppercase;
 }
 
 /* Jumbo */
